@@ -1,0 +1,49 @@
+h1 {
+  color: red;
+  margin: 10px 5%;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  margin: 10px 5%;
+}
+
+.score-container {
+  width: 60%;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list {
+  list-style: none;
+  border: 2px solid black;
+  gap: 20px;
+  margin: 0;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.input-container {
+  width: 30%;
+}
+
+.btn {
+  width: 100px;
+  height: 30px;
+}
+
+#btn {
+  width: 100px;
+  height: 30px;
+  margin-left: 70%;
+}
