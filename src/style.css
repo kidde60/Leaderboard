@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+
 body {
+  font-family: 'Merriweather', sans-serif;
+  font-style: italic;
   margin: 10px 5%;
   padding: 0;
   background: url('/images/chess.jpg');
@@ -92,13 +96,17 @@ h2 {
   border: none;
   cursor: pointer;
   background: #cb692bed;
-  cursor: pointer;
   color: #ebebeb;
   font-size: 20px;
 }
 
 #btn {
   align-self: flex-end;
+}
+
+.error {
+  font-size: 15px;
+  color: #f2f2f2;
 }
 
 @media only screen and (max-width: 830px) {
@@ -121,5 +129,9 @@ h2 {
   .score-container,
   .input-container {
     width: 100%;
+  }
+
+  .input {
+    padding-bottom: 5%;
   }
 }
