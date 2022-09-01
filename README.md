@@ -11,7 +11,7 @@
 - webpack
 
 ## Live Link
--  
+-  [live-demo] (https://kidde60.github.io/Leaderboard/)
 
 ## Getting Started
 
