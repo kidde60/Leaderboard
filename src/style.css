@@ -6,13 +6,13 @@ body {
   margin: 10px 5%;
   padding: 0;
   background: url('/images/chess.jpg');
-  color: #ebebeb;
+  color: whitesmoke;
 }
 
 h1 {
   margin: 5% 60% 10px 5%;
   box-shadow: 10px 10px 10px 10px #2e1303ed;
-  transition: all 5s ease-out;
+  transition: all 0.5s ease-out;
   text-align: center;
   font-size: 25px;
   padding: 10px;
