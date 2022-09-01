@@ -1,5 +1,4 @@
 h1 {
-  color: red;
   margin: 10px 5%;
 }
 
@@ -10,7 +9,7 @@ h1 {
 }
 
 .score-container {
-  width: 60%;
+  width: 40%;
 }
 
 .title {
@@ -24,6 +23,11 @@ h1 {
   border: 2px solid black;
   gap: 20px;
   margin: 0;
+}
+
+.listItem {
+  display: flex;
+  justify-content: space-around;
 }
 
 .input {
