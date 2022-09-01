@@ -6,27 +6,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leaderboard webpage</title>
+
 </head>
 
 <body>
     <div>
-        <h1>Chess Game's Leaderboard</h1>
+        <h1 class="header">Chess Game's Leaderboard</h1>
     </div>
     <div class="container">
         <div class="score-container">
             <div class="title">
-                <h2>Recent scores</h2>
-                <button type="button" class="btn">Refresh</button>
+                <h2 class="heading">Recent Scores</h2>
+                <button type="button" class="btn heading">Refresh</button>
             </div>
             <ul class="list">
             </ul>
         </div>
         <div class="input-container">
-            <h2>Add your score</h2>
+            <h2 class="heading">Add Your Score</h2>
             <form class="input">
-                <input type="text" placeholder="Your name" class="name-input">
-                <input type="text" placeholder="Your score" class="score-input">
-                <button type="submit" id="btn">Submit</button>
+                <input type="text" placeholder="Add User Name" class="name-input">
+                <input type="text" placeholder="Add Your Score" class="score-input">
+                <small class="error"></small>
+                <button type="submit" id="btn" class="heading btn">Submit</button>
             </form>
         </div>
     </div>

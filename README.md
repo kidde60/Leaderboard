@@ -1,6 +1,6 @@
-# Leaderboard: hit the API
+# Leaderboard:
 
-> In this activity you will continue working on the Leaderboard list app, sending and receiving data from/to the Leaderboard API.
+> In this activity you will finalize the Leaderboard list app, adding the styles needed to make it look great..
 ![](https://img.shields.io/badge/Microverse-blueviolet).
 
 ## Built With
@@ -11,7 +11,7 @@
 - webpack
 
 ## Live Link
--  
+-  [live-demo](https://kidde60.github.io/Leaderboard/)
 
 ## Getting Started
 

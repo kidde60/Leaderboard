@@ -17,6 +17,10 @@ module.exports = {
           'css-loader',
         ],
       },
+      {
+        test: /\.png$/,
+        use: 'url-loader?mimetype=image/png',
+      },
     ],
   },
   plugins: [
