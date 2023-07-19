@@ -70,5 +70,4 @@ refresh.addEventListener('click', () => {
   window.location.reload();
   display();
 });
-
 display();
